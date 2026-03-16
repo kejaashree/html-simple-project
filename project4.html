@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Product Card</title>
+
+<style>
+
+body{
+    background:#beab95;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    display:flex;
+    width:600px;
+    background:rgb(206, 199, 184);
+    border-radius:10px;
+    overflow:hidden;
+     box-shadow:10px 10px 10px rgb(85, 57, 6);
+}
+
+.card img{
+    width:300px;
+    margin-right: 30px;
+}
+
+.content{
+    padding:25px;
+}
+
+.category{
+    letter-spacing:3px;
+    color:gray;
+    font-size:12px;
+}
+
+.title{
+    font-size:28px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.description{
+    color:gray;
+    font-size:14px;
+    line-height:1.5;
+}
+
+.price{
+    margin:20px 0;
+}
+
+.new-price{
+    color:#3c8067;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:gray;
+    margin-left:10px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#3c8067;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2f6b57;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<img src="./Screenshot 2026-03-12 120405.png">
+
+<div class="content">
+
+<p class="category">PERFUME</p>
+
+<h2 class="title">Bella Vita Luxury Perfume</h2>
+
+<p class="description">
+A long-lasting premium fragrance from Bella Vita. 
+Fresh, bold and elegant scent perfect for daily wear 
+and special occasions.
+</p>
+
+<div class="price">
+<span class="new-price">₹699</span>
+<span class="old-price">₹999</span>
+</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+</div>
+
+</body>
+</html>

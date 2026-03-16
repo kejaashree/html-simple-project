@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Card Design</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body{
+    background:#f5d44d;
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    box-shadow:8px 8px 0px black;
+    overflow:hidden;
+}
+
+.card-img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.content{
+    padding:20px;
+}
+
+.tag{
+    background:#f5d44d;
+    padding:5px 10px;
+    font-weight:bold;
+    border-radius:4px;
+    font-size:14px;
+}
+
+.date{
+    font-size:13px;
+    margin-top:10px;
+}
+
+h2{
+    margin:10px 0;
+}
+
+.desc{
+    color:gray;
+    font-size:14px;
+}
+
+.author{
+     display:flex; 
+    /* align-items:center; */
+    /* margin-top:15px; */
+}
+
+.author img{ 
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-right:10px;
+}
+</style> 
+</head>
+
+<body>
+
+<div class="card">
+
+    <img src="./Screenshot 2026-03-10 232121.png" class="card-img">
+
+    <div class="content">
+
+        <span class="tag">Learning</span>
+
+        <p class="date">Published 21 Dec 2023</p>
+
+        <h2>HTML & CSS foundations</h2>
+
+        <p class="desc">
+            These languages are the backbone of every website,
+            defining structure, content, and presentation.
+        </p>
+
+        <div class="author">
+            <img src="./Screenshot 2026-03-10 232209.png">
+            <span>Greg Hooper</span>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
